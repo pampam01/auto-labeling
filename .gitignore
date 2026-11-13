@@ -1,0 +1,11 @@
+# Ignore semuanya
+*
+
+# Kecuali .gitignore dan folder pengambilan dataset
+!.gitignore
+!dataset_tools/
+!dataset_tools/**
+
+# Ignore cache Python
+__pycache__/
+*.pyc
